@@ -1,6 +1,10 @@
 # openstack
 Install scripts for OpenStack on Ubuntu 14.04
-Using three systems
+
+#This is for the lab for pluralsight course
+# www.pluralsight.com
+We use 3 Virtual Machines to build the manual lab setup:
+Ubuntu 14.04 / OpenStack Liberty Repo Configured
 Controller 192.168.56.6
 Compute 192.168.56.7
 Storage 192.168.56.8
