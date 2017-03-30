@@ -28,7 +28,7 @@ password = Password1
 [database]
 [nova]
 [oslo_concurrency]
-lock_path = $state_path/lock
+lock_path = /var/lock/neutron
 [oslo_policy]
 [oslo_messaging_amqp]
 [oslo_messaging_qpid]
