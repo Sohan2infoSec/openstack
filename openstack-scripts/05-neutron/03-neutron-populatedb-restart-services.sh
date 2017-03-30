@@ -32,7 +32,7 @@ project_name = service
 username = nova
 password = Password1
 [oslo_concurrency]
-lock_path = $state_path/lock
+lock_path = /var/lock/neutron
 [oslo_messaging_rabbit]
 rabbit_host = controller
 rabbit_userid = openstack
@@ -74,7 +74,7 @@ cat > /etc/neutron/dhcp_agent.ini << END
 interface_driver = neutron.agent.linux.interface.BridgeInterfaceDriver
 dhcp_driver = neutron.agent.linux.dhcp.Dnsmasq
 enable_isolated_metadata = True
-[AGENT]e_agent
+[AGENT]
 END
 
 cat > /etc/neutron/metadata_agent.ini << END
